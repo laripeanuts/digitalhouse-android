@@ -1,2 +1,3 @@
-class Cliente {
+class Cliente(val nome: String, val sobrenome: String, val contato: String) {
+    val nomeCompleto = this.nome + " " + this.sobrenome
 }
