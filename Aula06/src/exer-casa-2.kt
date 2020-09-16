@@ -1,22 +1,17 @@
-package nivel01
-
-/*2. Escrever o código que deve analisar duas cadeias de texto e, caso sejam diferentes,
-     retornar true, ou, caso sejam iguais, retornar false.*/
-
 fun main(){
-    print("Informe um texto: ")
-    val texto1 = readLine()!!
+    print("Me diga algo: ")
+    val info1 = readLine()!!
 
-    print("Informe outro texto: ")
-    val texto2 = readLine()!!
+    print("Me diga outra coisa: ")
+    val info2 = readLine()!!
 
     if (textosSaoIguais(texto1, texto2)){
-        println("São iguais")
+        println("São textos iguais")
     } else {
-        println("São diferentes")
+        println("São textos diferentes")
     }
 }
 
-fun textosSaoIguais(texto1: String, texto2: String): Boolean {
-    return texto1 == texto2
+fun textosSaoIguais(info1: String, info2: String): Boolean {
+    return info1 == info2
 }

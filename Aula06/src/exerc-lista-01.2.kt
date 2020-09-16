@@ -1,7 +1,3 @@
-package nivel01
-
-//2. Faça um Programa que leia um vetor de 10 números e mostre-os na ordem inversa.
-
 fun main(){
     val inteiros = arrayOfNulls<Int>(10)
 

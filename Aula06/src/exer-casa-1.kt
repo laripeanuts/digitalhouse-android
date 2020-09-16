@@ -1,7 +1,3 @@
-package nivel01
-
-//1) Escrever o código que deve analisar três números inteiros e retornar o maior deles.
-
 fun main() {
     var maior = Int.MIN_VALUE
     print("Informe valor um: ")
@@ -23,6 +19,6 @@ fun main() {
         maior = numero3
     }
 
-    print("O Maior número é: $maior" )
+    print("O número de maior valor é: $maior" )
 }
 

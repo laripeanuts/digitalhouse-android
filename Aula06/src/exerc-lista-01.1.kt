@@ -1,7 +1,3 @@
-package nivel01
-
-//1. Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
-
 fun main() {
     val inteiros = arrayOfNulls<Int>(5)
 

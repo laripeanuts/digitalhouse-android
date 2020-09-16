@@ -1,8 +1,3 @@
-package nivel02
-
-/*1. Uma empresa de pesquisas precisa tabular os resultados da seguinte enquete feita
-     a um grande quantidade de organizações:*/
-
 fun main() {
     val empresas = arrayListOf("Windows Server     ", "Unix               ", "Linux              ",
             "Netware            ", "Mac OS             ", "Outro              ")

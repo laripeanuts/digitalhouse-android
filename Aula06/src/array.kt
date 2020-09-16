@@ -1,12 +1,12 @@
 fun main() {
-    val meuArray = arrayOf("peixe", "jacaré", "jararaca")
+    val array = arrayOf("leao", "sapo", "jacaré")
 
 
-    meuArray.forEach { elemento -> println(elemento) }
+    array.forEach { elemento -> println(elemento) }
 
     println()
 
-    for (elemento in meuArray) {
+    for (elemento in array) {
         println(elemento)
     }
 }
