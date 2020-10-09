@@ -5,15 +5,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="30dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/nome"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"
+         />
+    
+    <EditText
+        android:id="@+id/edtMeuNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite aqui seu nome"
+        android:textSize="27sp"
+        android:paddingBottom="15dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="40dp"
+        />
+    
+    <Button
+        android:id="@+id/btnExibir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Exibir"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/blue"
+        android:padding="17dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meu_nome_eh"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtMeuNomeEh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        />
+    
 
 </androidx.appcompat.widget.LinearLayoutCompat>
