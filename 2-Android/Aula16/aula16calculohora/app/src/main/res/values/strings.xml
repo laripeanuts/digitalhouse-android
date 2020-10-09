@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">aula16calculohora</string>
+
+    <string name="digite_valor_da_hora">Digite valor da hora</string>
+    <string name="valor_da_hora">Valor da hora</string>
+    <string name="digite_horas_trabalhadas">Digite horas trabalhadas</string>
+    <string name="horas_trabalhadas">Horas Trabalhadas</string>
+    <string name="calcular">Calcular</string>
 </resources>
