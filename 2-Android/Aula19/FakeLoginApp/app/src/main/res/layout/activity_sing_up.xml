@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUpActivity"
+    android:orientation="vertical"
+    android:padding="40dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="@string/sign_up"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="34sp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/for_your_account"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:letterSpacing="0.4"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtSingUpNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome"
+        android:singleLine="true"
+        android:inputType="text"
+        android:textColorHint="@color/colorMain"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/edtSingUpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorMain"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/dimen_20dp"/>
+
+
+    <EditText
+        android:id="@+id/edtSingUpPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/senha"
+        android:textColorHint="@color/colorMain"
+        android:textColor="@color/colorMain"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/dimen_20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkboxSingUp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eu concordo com os termos."
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorMain"
+        />
+
+    <Button
+        android:id="@+id/btnSingUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:paddingHorizontal="80dp"
+        android:text="@string/sing_up"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/colorMain"
+        android:enabled="false"
+        />
+    <TextView
+        android:id="@+id/btnLoginSingup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/log_in_singup"
+        android:textColor="@color/colorMain"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
